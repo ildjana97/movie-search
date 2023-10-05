@@ -1,0 +1,33 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+.search-input:focus-visible {
+  border: 1px solid '#E21919'!important;
+}
+
+.search-button {
+  background-color: '#E21919';
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: '#E21919';
+}
+
+/* Add additional styles as needed */
+
